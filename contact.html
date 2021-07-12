@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Newsletter Sign-Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="form">
+      <label
+        ><p>Please take a moment to enter your contact information</p></label
+      >
+      <div>
+        <input id="email" type="email" inputmode="email" placeholder="email@" />
+      </div>
+      <div>
+        <input id="phone" type="number" placeholder="phone#" />
+      </div>
+      <form>
+        <label>Prefered method of contact</label>
+      </form>
+      <label><small>email</small></label>
+      <input id="e" type="radio" />
+      <label>phone</label>
+      <input id="p" type="radio" />
+      <div>
+        <label>Submit</label>
+        <button
+          class="button"
+          id="buttonSubmit"
+          type="submit"
+          aria-placeholder="Submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="newsLetter.js"></script>
 </html>

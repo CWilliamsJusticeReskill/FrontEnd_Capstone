@@ -1,0 +1,13 @@
+body {
+  background-color: chartreuse;
+}
+header {
+  padding-left: 41%;
+  font-family: fantasy;
+  font-size: xx-large;
+}
+.anchor {
+  text-decoration: none;
+  border: 3px solid black;
+  justify-content: center;
+}

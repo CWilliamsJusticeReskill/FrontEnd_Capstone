@@ -1,3 +1,63 @@
-/*body {
+body {
   background-color: chartreuse;
-}*/
+}
+.nav1 p {
+  font-family: fantasy;
+  color: black;
+}
+#searchButton {
+  font-size: 18px;
+  min-width: 50px;
+  margin: 20px auto;
+  background-color: black;
+  border: none;
+  border-radius: 2px;
+  color: chartreuse;
+  height: 25px;
+  text-shadow: 5rem;
+}
+.earth {
+  padding-left: 43%;
+  font-size: xx-large;
+  font-family: fantasy;
+  font-style: italic;
+}
+.newsLetter {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.enter {
+  font-family: fantasy;
+  color: black;
+  font-size: medium;
+}
+.where {
+  font-family: fantasy;
+  color: black;
+  font-size: large;
+  padding-left: 40%;
+}
+.why {
+  font-family: fantasy;
+  color: black;
+  font-size: large;
+  padding-left: 43%;
+}
+.logo {
+  padding-left: 46%;
+}
+#contact {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.img img {
+  margin: 0%;
+}
+#submitButton {
+  height: 5px;
+  width: 10px;
+}
